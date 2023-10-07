@@ -1,0 +1,100 @@
+/* Home.css - Your custom styles */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Make the container take the full viewport height */
+  background-color: #f0f0f0; /* Background color for the entire page */
+}
+  
+  .header-title {
+    font-size: 36px;
+    margin-bottom: 50px;
+    color: #333; /* Text color for the title */
+  }
+  
+  .styled-table {
+    border-collapse: collapse;
+    width: 80%; /* Adjust the table width as needed */
+    max-width: 800px; /* Maximum width for larger screens */
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); /* Box shadow for the table */
+    background-color: #fff; /* Background color for the table */
+  }
+  
+  .styled-table th,
+  .styled-table td {
+    border: 1px solid #ddd;
+    padding: 30px;
+    text-align: left;
+    margin-bottom: 50px; /* Add margin-bottom to create space between home-container and other content */
+
+  }
+  
+  .styled-table th {
+    background-color: #333; /* Background color for table header */
+    color: #fff; /* Text color for table header */
+  }
+  
+  .styled-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2; /* Alternate row background color */
+  }
+  
+  .styled-table tbody tr:hover {
+    background-color: #ddd; /* Background color for hover effect */
+    cursor: pointer;
+  }
+
+  /* Home.css - Your custom styles */
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Make the container take the full viewport height */
+    background-color: #f0f0f0; /* Background color for the entire page */
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 0 20px; /* Add padding to create space between button and title */
+  }
+  
+  .header-title {
+    font-size: 36px;
+    color: #333; /* Text color for the title */
+  }
+  
+  .new-stock-button {
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Text color for the button */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 20px; /* Add margin-left for spacing */
+  }
+  
+  .new-stock-button:hover {
+    background-color: #0056b3; /* Button background color on hover */
+  }
+  
+  /* Add media query for responsiveness */
+  @media screen and (max-width: 768px) {
+    .header {
+      flex-direction: column;
+      align-items: flex-start;
+      text-align: center;
+    }
+  
+    .new-stock-button {
+      margin-left: 0; /* Remove margin-left on small screens */
+      margin-top: 10px; /* Add margin-top for spacing on small screens */
+    }
+  }
+
+  

@@ -1,0 +1,30 @@
+/* Navbar styles */
+.navbar {
+    background-color: #333; /* Background color for the Navbar */
+    color: #fff; /* Text color for the Navbar */
+    display: flex;
+    justify-content: space-between; /* Align items at the start and end */
+    padding: 1rem;
+  }
+  
+  /* Navbar brand (logo) styles */
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff; /* Color for the brand/logo text */
+  }
+  
+  /* Navbar item (navigation link) styles */
+  .navbar-item {
+    margin-left: 1rem; /* Spacing between navigation items */
+    text-decoration: none;
+    color: #fff; /* Text color for navigation links */
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+  }
+  
+  /* Navbar item hover styles */
+  .navbar-item:hover {
+    color: #ff5722; /* Color for navigation links on hover */
+  }
+  
