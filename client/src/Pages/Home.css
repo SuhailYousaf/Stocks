@@ -25,7 +25,7 @@
   .styled-table th,
   .styled-table td {
     border: 1px solid #ddd;
-    padding: 30px;
+    padding: 10px;
     text-align: left;
     margin-bottom: 50px; /* Add margin-bottom to create space between home-container and other content */
 
@@ -96,5 +96,58 @@
       margin-top: 10px; /* Add margin-top for spacing on small screens */
     }
   }
+
+  /* Home.css - Your custom styles */
+
+/* ... (previous styles) ... */
+
+/* Modal Styles */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999; /* Ensure it appears above other elements */
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+  max-width: 400px;
+  width: 100%;
+}
+/* Styles for the form elements in the modal */
+.modal-label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #333;
+}
+
+.modal-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+/* Styles for the modal buttons */
+.modal-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+/* ... (previous styles) ... */
+
 
   
